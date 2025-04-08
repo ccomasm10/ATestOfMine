@@ -1,5 +1,6 @@
 Hello World !! Here we go !!
 
 After a new modification is saved..
-    1. Do a commit
-    2. Do a push
+    1. stage the file
+    1. commit the file/repository
+    2. push the file/repository
