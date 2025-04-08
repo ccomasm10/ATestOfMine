@@ -5,13 +5,13 @@ After a new modification is saved..
     2. git commit: to move the git staging area to the git local repository (repo).
     3. git push: to copy the git local repo to the GitHub remote repo.
 
-Question: after commiting, the staging area is emptied ?
+After commiting, the staging area is NOT emptied.
 
 Imagine now, that the file has been deleted by accident. How can I restore (pull) a 
 copy of the file, either from the staging area, the local repo and the remote repo.
 
 To restore the file from the remote repo: git reset --hard origin/main
-To restore the file from the local repo: git reset --mixed/osft/hard #repoid
+To restore the file from the local repo: git reset --mixed/soft/hard #repoid
 
 [git reset] comes wit three options: soft, hard, mixed.
 [mixed] (default): removes commit and keep changes is working area.
