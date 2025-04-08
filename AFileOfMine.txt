@@ -1,3 +1,5 @@
 Hello World !! Here we go !!
 
-When a new modification is done..
+After a new modification is saved..
+    1. Do a commit
+    2. Do a push
