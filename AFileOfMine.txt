@@ -12,6 +12,7 @@ copy of the file, either from the staging area, the local repo and the remote re
 
 To restore the file from the remote repo: git reset --hard origin/main
 To restore the file from the local repo: git reset --mixed/soft/hard #repoid
+Get #repoid with: git log --oneline
 
 [git reset] comes wit three options: soft, hard, mixed.
 [mixed] (default): removes commit and keep changes is working area.
