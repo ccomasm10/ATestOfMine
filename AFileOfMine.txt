@@ -10,5 +10,12 @@ Question: after commiting, the staging area is emptied ?
 Imagine now, that the file has been deleted by accident. How can I restore (pull) a 
 copy of the file, either from the staging area, the local repo and the remote repo.
 
-To restore the local repo from teh remote repo: git reset --hard origin/main
+To restore the file from the remote repo: git reset --hard origin/main
+To restore the file from the local repo: git reset --mixed/osft/hard #repoid
+
+[git reset] comes wit three options: soft, hard, mixed.
+[mixed] (default): removes commit and keep changes is working area.
+[soft]: removes commit and keep changes is staging area.
+[hard]: removes commit and discards changes in working and staging area.
+
 
