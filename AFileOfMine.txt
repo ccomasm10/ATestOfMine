@@ -1,6 +1,6 @@
 Hello World !! Here we go !!
 
 After a new modification is saved..
-    1. stage the file
-    2. commit the file/repository
-    3. push the file/repository
+    1. git add: to copy the file from the working directory to the git staging area.
+    2. git commit: to move the git staging area to the git local repository (repo).
+    3. git push: to copy the git local repo to the GitHub remote repo.
