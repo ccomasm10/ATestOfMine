@@ -7,16 +7,21 @@ After a new modification is saved..
 
 After commiting, the staging area is NOT emptied.
 
-Imagine now, that the file has been deleted by accident. How can I restore (pull) a 
-copy of the file, either from the staging area, the local repo and the remote repo.
+Imagine now, that the file has been deleted by accident. How can I restore a 
+copy of the file, either from the 1.staging area, 2.the local repo and 3.the remote repo.
 
-To restore the file from the remote repo: git reset --hard origin/main
-To restore the file from the local repo: git reset --mixed/soft/hard #commitid
-Get #commitid with: git log --oneline
+1.From the staging area: git reset <file> or git restore --staged <file>
 
-[git reset] comes wit three options: soft, hard, mixed.
-[mixed] (default): removes commit and keep changes is working area.
-[soft]: removes commit and keep changes is staging area.
-[hard]: removes commit and discards changes in working and staging area.
+2.From the local repo: git reset --mixed/soft/hard #commitid
+    where the #commitid can be obtained from: git log --oneline
+    [git reset] comes wit three options: soft, hard, mixed.
+    [mixed] (default): removes commit and keep changes is working area.
+    [soft]: removes commit and keep changes is staging area.
+    [hard]: removes commit and discards changes in working and staging area.  
 
+3.From the remote repo: git reset --hard origin/main
+    It replaces files and git history !!
+
+
+Also [git revert], reverts changes in the current (lastest?) commit.
 
