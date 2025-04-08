@@ -19,7 +19,7 @@ copy of the file, either from the 1.staging area, 2.the local repo and 3.the rem
     [git reset] comes wit three options: soft, hard, mixed.
     [mixed] (default): removes commit and keep changes is working area.
     [soft]: removes commit and keep changes is staging area.
-    [hard]: removes commit and discards changes in working and staging area.  
+    [hard]: removes commit and discard changes in working and staging area.
 
 3.From the remote repo: git reset --hard origin/main
     It replaces files and git history !!
