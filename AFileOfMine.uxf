@@ -12,5 +12,5 @@ git commit</panel_attributes><additional_attributes>10;20;130;20</additional_att
 git push</panel_attributes><additional_attributes>10;20;130;20</additional_attributes></element><element><id>Relation</id><coordinates><x>100</x><y>190</y><w>310</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
 git reset</panel_attributes><additional_attributes>10;20;290;20</additional_attributes></element><element><id>Relation</id><coordinates><x>100</x><y>160</y><w>150</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
 git ??</panel_attributes><additional_attributes>10;20;130;20</additional_attributes></element><element><id>Relation</id><coordinates><x>100</x><y>220</y><w>470</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
-git reset</panel_attributes><additional_attributes>10;20;450;20</additional_attributes></element><element><id>Relation</id><coordinates><x>100</x><y>250</y><w>470</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+git pull</panel_attributes><additional_attributes>10;20;450;20</additional_attributes></element><element><id>Relation</id><coordinates><x>100</x><y>250</y><w>470</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
 git revert</panel_attributes><additional_attributes>10;20;450;20</additional_attributes></element></diagram>
