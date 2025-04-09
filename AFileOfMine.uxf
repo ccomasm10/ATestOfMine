@@ -20,11 +20,12 @@ combines local and remote repos
 git revert c3b3a26
 revert changes in current commit</panel_attributes><additional_attributes>10;20;290;20</additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>290</y><w>470</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
 git reset --hard origin/main
-replace local repo with the  remote repo</panel_attributes><additional_attributes>10;20;450;20</additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>160</y><w>190</w><h>60</h></coordinates><panel_attributes>lt=-&gt;
+replace local repo with the  remote repo</panel_attributes><additional_attributes>10;20;450;20</additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>160</y><w>180</w><h>60</h></coordinates><panel_attributes>lt=-&gt;
 git push origin +5bada76:main
 resets the current remote 
 commit to a previous one</panel_attributes><additional_attributes>30;20;150;20</additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>410</y><w>150</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
 git fetch</panel_attributes><additional_attributes>10;20;130;20</additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>410</y><w>310</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
 git merge [--squash] &lt;branch-name&gt;
-git rebase &lt;branch-name&gt;</panel_attributes><additional_attributes>10;20;290;20</additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>80</y><w>140</w><h>70</h></coordinates><panel_attributes>lt=-&gt;
-pull request</panel_attributes><additional_attributes>10;10;50;10;50;50;10;50</additional_attributes></element></diagram>
+git rebase &lt;branch-name&gt;</panel_attributes><additional_attributes>10;20;290;20</additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>80</y><w>130</w><h>70</h></coordinates><panel_attributes>lt=-&gt;
+pull request</panel_attributes><additional_attributes>10;10;50;10;50;50;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>480</y><w>470</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+git clone https://TransfDigital@github.com/TransfDigital/iotNode .\repo</panel_attributes><additional_attributes>10;20;450;20</additional_attributes></element></diagram>
