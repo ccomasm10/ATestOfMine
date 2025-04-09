@@ -30,6 +30,7 @@ To reset the remote repo to a previous commit:
     1. Reset the local repo ex:  git reset --hard 5bada76
     2. Reset the remote repo ex: git push origin +5bada76:main  (where + is to force the push)
 
->>>>>>>>>  New section <<<<<<<<<<<
+>>>>>>>>>  Pulling <<<<<<<<<
 
-In this new section we will be talking about..
+Pulling is about updating the local repo and working space from the remote repo. It is equivalent 
+to a [git fecth] followed by a [git merge].
