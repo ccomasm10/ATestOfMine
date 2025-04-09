@@ -26,4 +26,5 @@ resets the current remote
 commit to a previous one</panel_attributes><additional_attributes>30;20;150;20</additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>410</y><w>150</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
 git fetch</panel_attributes><additional_attributes>10;20;130;20</additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>410</y><w>310</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
 git merge [--squash] &lt;branch-name&gt;
-git rebase &lt;branch-name&gt;</panel_attributes><additional_attributes>10;20;290;20</additional_attributes></element></diagram>
+git rebase &lt;branch-name&gt;</panel_attributes><additional_attributes>10;20;290;20</additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>80</y><w>140</w><h>70</h></coordinates><panel_attributes>lt=-&gt;
+pull request</panel_attributes><additional_attributes>10;10;50;10;50;50;10;50</additional_attributes></element></diagram>
