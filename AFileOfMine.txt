@@ -39,3 +39,10 @@ Open a new branch with:
 In order to switch between branches:
     1. git checkout <branch-name>  (among lots of many other meanings !!)
     2. git switch <branch-name>  (recommended)
+
+To rename the local current head branch:  git branch -m <new-name>
+To rename any other local non-head branch:  git branch -m <old-name> <new-name>
+
+The same manouver in the remote repo requires some different approach:
+    1. Delete the remote branch:    git push origin --delete <old-name>
+    2. Push to publish the new branch from the local repo:     git push -u origin <new-name>
