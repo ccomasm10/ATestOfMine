@@ -34,3 +34,6 @@ To reset the remote repo to a previous commit:
 
 Pulling is about updating the local repo and working space from the remote repo. It is equivalent 
 to a [git fecth] followed by a [git merge].
+
+git pull origin           to incorporate changes from the last remote commit into the current branch. 
+git pull origin 5bada76   to incorporate changes from the especified remote commit into the current branch.

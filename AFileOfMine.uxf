@@ -14,7 +14,7 @@ git reset --mixed/soft/hard 5bada76
 resets current local commit 
 to a previous one</panel_attributes><additional_attributes>10;20;290;20</additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>110</y><w>150</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
 git reset &lt;file&gt;</panel_attributes><additional_attributes>10;20;130;20</additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>350</y><w>470</w><h>60</h></coordinates><panel_attributes>lt=&lt;-
-git pull = git fetch &amp;&amp; git merge
+git pull origin &lt;commitId&gt; = git fetch &amp;&amp; git merge
 combines local and remote repos
 </panel_attributes><additional_attributes>10;20;450;20</additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>230</y><w>310</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
 git revert c3b3a26
