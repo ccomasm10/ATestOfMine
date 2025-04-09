@@ -37,3 +37,5 @@ to a [git fecth] followed by a [git merge].
 
 git pull origin           to incorporate changes from the last remote commit into the current branch. 
 git pull origin 5bada76   to incorporate changes from the especified remote commit into the current branch.
+
+Pending talking about [git pull request].
