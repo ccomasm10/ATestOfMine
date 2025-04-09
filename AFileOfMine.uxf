@@ -8,8 +8,8 @@ bg=green</panel_attributes><additional_attributes></additional_attributes></elem
 Repo
 bg=magenta</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>60</x><y>30</y><w>30</w><h>550</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;530</additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>30</y><w>30</w><h>550</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;530</additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>30</y><w>30</w><h>550</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;530</additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>30</y><w>30</w><h>550</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;530</additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>70</y><w>150</w><h>40</h></coordinates><panel_attributes>lt=-&gt;
 git add</panel_attributes><additional_attributes>10;20;130;20</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>70</y><w>150</w><h>40</h></coordinates><panel_attributes>lt=-&gt;
-git commit</panel_attributes><additional_attributes>10;20;130;20</additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>70</y><w>150</w><h>40</h></coordinates><panel_attributes>lt=-&gt;
-git push</panel_attributes><additional_attributes>10;20;130;20</additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>160</y><w>310</w><h>60</h></coordinates><panel_attributes>lt=&lt;-
+git commit</panel_attributes><additional_attributes>10;20;130;20</additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>70</y><w>190</w><h>40</h></coordinates><panel_attributes>lt=-&gt;
+git push origin &lt;branch-name&gt;</panel_attributes><additional_attributes>30;20;150;20</additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>160</y><w>310</w><h>60</h></coordinates><panel_attributes>lt=&lt;-
 git reset --mixed/soft/hard 5bada76
 resets current local commit 
 to a previous one</panel_attributes><additional_attributes>10;20;290;20</additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>110</y><w>150</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
@@ -24,5 +24,6 @@ replace local repo with the  remote repo</panel_attributes><additional_attribute
 git push origin +5bada76:main
 resets the current remote 
 commit to a previous one</panel_attributes><additional_attributes>30;20;150;20</additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>410</y><w>150</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
-git fetch</panel_attributes><additional_attributes>10;20;130;20</additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>410</y><w>310</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
-git merge</panel_attributes><additional_attributes>10;20;290;20</additional_attributes></element></diagram>
+git fetch</panel_attributes><additional_attributes>10;20;130;20</additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>410</y><w>310</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+git merge [--squash] &lt;branch-name&gt;
+git rebase &lt;branch-name&gt;</panel_attributes><additional_attributes>10;20;290;20</additional_attributes></element></diagram>
