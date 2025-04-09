@@ -30,3 +30,8 @@ To reset the remote repo to a previous commit:
     1. Reset the local repo ex:  git reset --hard 5bada76
     2. Reset the remote repo ex: git push origin +5bada76:main  (where + is to force the push)
 
+=========> Branching <=============
+
+Open a new branch with:
+    1. git branch <branch-name>  (creates a branch at the current commit/checkout revision)
+    2. git branch <branch-name> <commitId>   (creates a branch at the specified commit)
