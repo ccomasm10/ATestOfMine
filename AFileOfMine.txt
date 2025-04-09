@@ -35,3 +35,7 @@ To reset the remote repo to a previous commit:
 Open a new branch with:
     1. git branch <branch-name>  (creates a branch at the current commit/checkout revision)
     2. git branch <branch-name> <commitId>   (creates a branch at the specified commit)
+
+In order to switch between branches:
+    1. git checkout <branch-name>  (among lots of many other meanings !!)
+    2. git switch <branch-name>  (recommended)
