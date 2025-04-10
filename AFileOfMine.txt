@@ -43,13 +43,17 @@ Pending talking about [git pull request].
 
 =========> Branching <=============
 
-Open a new branch with:
+Create a new branch and stay on the same branch:
     1. git branch <branch-name>  (creates a branch at the current commit/checkout revision)
     2. git branch <branch-name> <commitId>   (creates a branch at the specified commit)
 
 In order to switch between branches:
     1. git checkout <branch-name>  (among lots of many other meanings !!)
     2. git switch <branch-name>  (recommended)
+
+Create a new branch and switch to the new branch:
+    1. git checkout -b <branch-name>
+    2. git switch -c <branch-name>
 
 To rename the local current head branch:  git branch -m <new-name>
 To rename any other local non-head branch:  git branch -m <old-name> <new-name>
