@@ -27,5 +27,8 @@ commit to a previous one</panel_attributes><additional_attributes>30;20;150;20</
 git fetch</panel_attributes><additional_attributes>10;20;130;20</additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>410</y><w>310</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
 git merge [--squash] &lt;branch-name&gt;
 git rebase &lt;branch-name&gt;</panel_attributes><additional_attributes>10;20;290;20</additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>80</y><w>130</w><h>70</h></coordinates><panel_attributes>lt=-&gt;
-pull request</panel_attributes><additional_attributes>10;10;50;10;50;50;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>480</y><w>470</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
-git clone https://TransfDigital@github.com/TransfDigital/iotNode .\repo</panel_attributes><additional_attributes>10;20;450;20</additional_attributes></element></diagram>
+pull request</panel_attributes><additional_attributes>10;10;50;10;50;50;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>470</y><w>470</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+git clone https://TransfDigital@github.com/TransfDigital/iotNode .\repo
+plus personal_token as credential</panel_attributes><additional_attributes>10;20;450;20</additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>520</y><w>470</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+git clone https://github.com/TransfDigital/iotNode.git .\repo
+(personal repos ?)</panel_attributes><additional_attributes>10;20;450;20</additional_attributes></element></diagram>
